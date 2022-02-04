@@ -1,26 +1,17 @@
 #!/bin/bash
  
-################################################################
-##
-##   MySQL Database Backup Script 
-##   Written By: Rahul Kumar
-##   URL: https://tecadmin.net/bash-script-mysql-database-backup/
-##   Last Update: Jan 05, 2019
-##
-################################################################
- 
 export PATH=/bin:/usr/bin:/usr/local/bin
 TODAY=`date +"%d%b%Y"`
  
 ################################################################
 ################## Update below values  ########################
  
-DB_BACKUP_PATH='/home/cardvisiontv/DBBACKUP'
+DB_BACKUP_PATH='/backups'
 MYSQL_HOST='localhost'
 MYSQL_PORT='3306'
-MYSQL_USER='cardvisiontv_ctv'
-MYSQL_PASSWORD='BlowedFish123'
-DATABASE_NAME='cardvisiontv_ctv'
+MYSQL_USER='####'
+MYSQL_PASSWORD='####'
+DATABASE_NAME='####'
 BACKUP_RETAIN_DAYS=30   ## Number of days to keep local backup copy
  
 #################################################################
